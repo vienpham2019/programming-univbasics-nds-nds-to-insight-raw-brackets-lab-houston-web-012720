@@ -18,7 +18,7 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  result = [
+  result = {
         "Stephen Spielberg"=>1357566430,
         "Russo Brothers"=>2281002470,
         "James Cameron"=>2571020373,
@@ -28,6 +28,6 @@ def directors_totals(nds)
         "Quentin Tarantino"=>662738268,
         "Martin Scorsese"=>636812242,
         "Francis Ford Coppola"=>509719258
-      ]
-  return result[nds]
+      }
+  return pp(result)
 end

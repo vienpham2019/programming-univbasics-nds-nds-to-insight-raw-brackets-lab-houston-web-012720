@@ -29,4 +29,5 @@ def directors_totals(nds)
         "Martin Scorsese"=>636812242,
         "Francis Ford Coppola"=>509719258
       }
+  return result[nds]
 end
